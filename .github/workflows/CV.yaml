@@ -11,6 +11,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+      - run: npm install
       - run: npm run build-css
       - run: npm run build-htmls
       - name: Push CV to the djbelyak.ru repo
