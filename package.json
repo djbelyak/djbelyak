@@ -6,6 +6,6 @@
   "scripts": {
     "watch": "tailwindcss -i ./src/style.css -o ./dist/style.css --watch",
     "build-css": "tailwindcss -i ./src/style.css -o ./dist/style.css --minify",
-    "build-html": "pandoc -s -f markdown -t html README.md -o dist/ivan-belyavtsev-cv.html --template src/template.html --self-contained --css dist/style.css --metadata title=\"Ivan Belyavtsev\""
+    "build-html": "pandoc -s -f markdown -t html README.md -o dist/ibelyavtsev.html --template src/template.html --self-contained --css dist/style.css --metadata title=\"Ivan Belyavtsev\""
   }
 }

@@ -139,6 +139,6 @@ Male, 31 y.o.
 - Aviation and flight simulators
 - Gym training
 
-_The latest version of this CV is located here: [djbelyak.ru/ivan-belyavtsev-cv.html](https://djbelyak.ru/ivan-belyavtsev-cv.html)_
+_The latest version of this CV is located here: [djbelyak.ru/CV/ibelyavtsev.html](https://djbelyak.ru/CV/ibelyavtsev.html)_
 <!---
 --->
