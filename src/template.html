@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$" xml:lang="$lang$"$if(dir)$ dir="$dir$"$endif$>
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    $for(author-meta)$
+    <meta name="author" content="$author-meta$" />
+    $endfor$
+    $if(date-meta)$
+    <meta name="dcterms.date" content="$date-meta$" />
+    $endif$
+    $if(keywords)$
+    <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
+    $endif$
+    $if(description-meta)$
+    <meta name="description" content="$description-meta$" />
+    $endif$
+    <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+    <style>
+        $styles.html()$
+    </style>
+    $for(css)$
+    <link rel="stylesheet" href="$css$" />
+    $endfor$
+    $for(header-includes)$
+    $header-includes$
+    $endfor$
+    $if(math)$
+    $math$
+    $endif$
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+</head>
+<body class="antialiased bg-gradient-to-r from-green-50 to-orange-50 print:h-[297mm] print:w-[210mm] print:bg-white">
+$for(include-before)$
+$include-before$
+$endfor$
+<div class="relative w-full px-6 py-12 bg-white shadow-xl shadow-slate-700/10 ring-1 ring-gray-900/5 md:max-w-6xl md:mx-auto lg:max-w-7xl lg:pt-16 lg:pb-28 print:shadow-none print:ring-0">
+<article class="prose print:prose-sm max-w-fit prose-img:rounded-2xl prose-img:mx-auto prose-img:float-none prose-img:m-0 prose-img:p-1 prose-img:md:float-right prose-h2:mt-2 prose-h3:mt-1.5 prose-p:mb-1.5 print:prose-h2:mt-1 print:prose-h3:mt-1 print:prose-p:mb-1">
+$body$
+</article>
+</div>
+$for(include-after)$
+$include-after$
+$endfor$
+</body>
+</html>

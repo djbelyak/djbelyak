@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.7",
+    "tailwindcss": "^3.2.1"
+  },
+  "scripts": {
+    "watch": "tailwindcss -i ./src/style.css -o ./dist/style.css --watch",
+    "build-css": "tailwindcss -i ./src/style.css -o ./dist/style.css --minify",
+    "build-html": "pandoc -s -f markdown -t html README.md -o dist/ivan-belyavtsev-cv.html --template src/template.html --self-contained --css dist/style.css --metadata title=\"Ivan Belyavtsev\""
+  }
+}

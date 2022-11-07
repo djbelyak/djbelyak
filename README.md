@@ -1,21 +1,27 @@
 # Ivan Belyavtsev
 
-🌐[djbelyak.ru](https://djbelyak.ru)
-📧[djbelyak@gmail.com](mailto:djbelyak@gmail.com)
-💬[t.me/djbelyak](https://t.me/djbelyak)
-📱[+7-953-323-38-72](tel:+79533233872)
-👔[linkedin.com/in/ivan-belyavtsev-821857a9](https://www.linkedin.com/in/ivan-belyavtsev-821857a9)
-
-<img src="img/ivan_belyavtsev.jpg" width="250" alt="photo"/>
+![](img/ivan_belyavtsev.jpg)
 
 👋 Hello! 
 I'm a software engineer with 10+ years of experience from Obninsk, Russia.
+The most of my experience connected with 3D graphics in game development and GPU-accelerated applications.
 
 My main focus in work is to make tasks accomplished no matter.
 Have a great experience in solving issues in hard environments - lack of access, debugging possibilities, or knowledge.
 I'm an explorer: still love to learn new languages, technologies, libraries and introduce them in real-life projects.
 
+🌐&nbsp;[djbelyak.ru](https://djbelyak.ru) |
+📧&nbsp;[djbelyak@gmail.com](mailto:djbelyak@gmail.com) |
+💬&nbsp;[t.me/djbelyak](https://t.me/djbelyak) |
+📱&nbsp;[+7-953-323-38-72](tel:+79533233872) |
+👔&nbsp;[linkedin.com/in/ivan-belyavtsev-821857a9](https://www.linkedin.com/in/ivan-belyavtsev-821857a9)
+
+
 ## 💪 Skills
+
+<div class="flex flex-col md:flex-row">
+
+<div class="w-full md:w-1/4">
 
 ### 👨‍💻️ Programming languages
 
@@ -25,6 +31,10 @@ I'm an explorer: still love to learn new languages, technologies, libraries and 
 - HLSL
 - Golang
 
+</div>
+
+<div class="w-full md:w-1/4">
+
 ### 👷 Ops
 
 - Docker
@@ -32,10 +42,18 @@ I'm an explorer: still love to learn new languages, technologies, libraries and 
 - Teamcity
 - GitHub Actions
 
+</div>
+
+<div class="w-full md:w-1/4">
+
 ### ⚙ Game engines
 
 - Unreal engine
 - Unity
+
+</div>
+
+<div class="w-full md:w-1/4">
 
 ### 🤖 Machine learning techs
 
@@ -44,6 +62,10 @@ I'm an explorer: still love to learn new languages, technologies, libraries and 
 - NumPy
 - PyTorch
 - OpenCV
+
+</div>
+
+</div>
 
 ## 💼 Experience
 
@@ -100,20 +122,23 @@ Thesis topic: Learning algorithms and architectures of artificial neural network
 
 ## 😉 Personal
 
-Side-projects:
+Male, 31 y.o.
 
-- Author and instructor of Computer graphics in Game development course at Innopolis University
-- Web-developer for Scopus-listed scientific journal
-
-Hobbies:
-- Aviation and flight simulators
-- VR
-- Gym training
-
-Languages:
+### Languages
 
 - 🇺🇸 **English**: B2 (upper-intermediate)
 - 🇷🇺 **Russian:** Native
 
+### Side-projects
+
+- Author and instructor of Computer graphics in Game development course at Innopolis University
+- Web-developer for Scopus-listed scientific journal
+
+### Hobbies
+
+- Aviation and flight simulators
+- Gym training
+
+_The latest version of this CV is located here: [djbelyak.ru/ivan-belyavtsev-cv.html](https://djbelyak.ru/ivan-belyavtsev-cv.html)_
 <!---
 --->
