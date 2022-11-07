@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: r-lib/actions/setup-pandoc@v1
+      - uses: r-lib/actions/setup-pandoc@v2
         with:
           pandoc-version: '2.19.2'
       - uses: actions/setup-node@v3
@@ -22,6 +22,6 @@ jobs:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
         with:
           source-directory: 'dist'
-          destination-repository-name: 'djbelyak.ru'
+          destination-repository-name: 'djbelyak/djbelyak.ru'
           target-branch: master
           target-directory: 'static/CV'
