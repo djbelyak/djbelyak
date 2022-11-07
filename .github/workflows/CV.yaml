@@ -13,7 +13,7 @@ jobs:
           node-version: 16
       - run: npm install
       - run: npm run build-css
-      - run: npm run build-htmls
+      - run: npm run build-html
       - name: Push CV to the djbelyak.ru repo
         uses: cpina/github-action-push-to-another-repository@main
         env:
