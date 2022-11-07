@@ -25,3 +25,5 @@ jobs:
           destination-repository-name: 'djbelyak/djbelyak.ru'
           target-branch: master
           target-directory: 'static/CV'
+          user-name: 'Ivan Belyavtsev'
+          user-email: 'djbelyak@gmail.com'
