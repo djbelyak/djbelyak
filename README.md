@@ -69,6 +69,10 @@ I'm an explorer: still love to learn new languages, technologies, libraries and 
 
 ## 💼 Experience
 
+### Senior Developer @ BIFIT
+
+_2022-Present, Moscow, Russia [remote]_
+
 ### Senior Developer Technology Engineer (in computer graphics) @ NVIDIA
 
 _2014-2022, Moscow, Russia [partial remote]_
