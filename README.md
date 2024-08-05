@@ -126,7 +126,7 @@ Thesis topic: Learning algorithms and architectures of artificial neural network
 
 ## 😉 Personal
 
-Male, 31 y.o.
+Male, 33 y.o.
 
 ### Languages
 
