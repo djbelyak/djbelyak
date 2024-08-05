@@ -6,24 +6,23 @@ jobs:
   build-html:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: r-lib/actions/setup-pandoc@v2
         with:
           pandoc-version: '2.19.2'
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: 16
       - run: npm install
       - run: npm run build-css
       - run: npm run build-html
       - name: Push CV to the djbelyak.ru repo
-        uses: cpina/github-action-push-to-another-repository@main
+        uses: datalbry/copy_folder_to_another_repo_action@1.0.0
         env:
-          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: 'dist'
-          destination-repository-name: 'djbelyak/djbelyak.ru'
-          target-branch: master
-          target-directory: 'static/CV'
-          user-name: 'Ivan Belyavtsev'
-          user-email: 'djbelyak@gmail.com'
+          source_folder: 'dist'
+          destination_repo: 'djbelyak/djbelyak.ru'
+          destination_folder: 'static/CV'
+          user_email: 'djbelyak@gmail.com'
+          user_name: 'djbelyak'
