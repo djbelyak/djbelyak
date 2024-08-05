@@ -25,11 +25,11 @@ I'm an explorer: still love to learn new languages, technologies, libraries and 
 
 ### 👨‍💻️ Programming languages
 
+- Golang
 - Python
 - C++
 - Blueprint
 - HLSL
-- Golang
 
 </div>
 
