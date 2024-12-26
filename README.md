@@ -57,6 +57,8 @@ I'm an explorer: still love to learn new languages, technologies, libraries and 
 
 ### 🤖 Machine learning techs
 
+- Ollama
+- LangChain
 - Scikit-learn
 - Pandas
 - NumPy
@@ -69,7 +71,7 @@ I'm an explorer: still love to learn new languages, technologies, libraries and 
 
 ## 💼 Experience
 
-### Senior Developer @ BIFIT
+### Senior Golang Developer @ BIFIT
 
 _2022-Present, Moscow, Russia [remote]_
 
