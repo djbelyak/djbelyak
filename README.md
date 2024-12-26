@@ -77,7 +77,7 @@ _2022-Present, Moscow, Russia [remote]_
 
 ### Senior Developer Technology Engineer (in computer graphics) @ NVIDIA
 
-_2014-2022, Moscow, Russia [partial remote]_
+_2014-2022, Moscow, Russia [partially remote]_
 
 - Data-mining upon computer graphics data
 - [Unreal engine plugins](https://developer.nvidia.com/game-engines/unreal-engine) development
@@ -88,7 +88,7 @@ _2014-2022, Moscow, Russia [partial remote]_
 
 ### OptiX Intern @ NVIDIA
 
-_2013-2014, Moscow, Russia [partial remote]_
+_2013-2014, Moscow, Russia [partially remote]_
 
 - Bug-fixing and performance analysis of [OptiX SDK](https://developer.nvidia.com/rtx/ray-tracing/optix)
 - Internal tools development
